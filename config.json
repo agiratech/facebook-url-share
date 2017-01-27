@@ -1,0 +1,51 @@
+
+{
+  'key': '#$1facee3ce39c2218019',
+  'clip': {
+    'autoPlay': true,
+    'provider': 'hls',
+    'urlResolvers': 'hls',
+    'url': 'https://play-staging.com/video.mp4',
+    'scaling': 'fit'
+  },
+  'logo': {
+    'url': 'https://play-staging.com/logo.png',
+    'top': 20,
+    'right': 20,
+    'opacity': 0.4,
+    'fullscreenOnly': false,
+    'linkUrl': 'https://play-staging.com/'
+  },
+  'play': {
+    'url': 'https://play-staging.com/play-icon.png',
+    'width': 84,
+    'height': 84
+  },
+  'canvas': {
+    'backgroundColor': '#000000',
+    'backgroundGradient': 'medium'
+  },
+  'plugins': {
+    'hls': {
+      'url': 'https://play-staging.com/player/flashlsFlowPlayer.swf',
+      'hls_seekmode': 'KEYFRAME'
+     },
+    'controls': {
+      'url': 'https://play-staging.com/player/flowplayer.controls-3.2.16.swf',
+      'play': true,
+      'fullscreen': false,
+      'height': 20,
+      'backgroundGradient': 'none',
+      'backgroundColor': 'transparent',
+      'bufferColor': '#cccccc',
+      'progressColor': '#ffffff',
+      'sliderColor': '#cccccc',
+      'bufferGradient': 'none',
+      'scrubberBarHeightRatio': '0.7',
+      'scrubberHeightRatio': '0.7',
+      'volumeSliderColor': '#cccccc',
+      'volumeBarHeightRatio': '0.7',
+      'tooltips': false
+    }
+  }
+}
